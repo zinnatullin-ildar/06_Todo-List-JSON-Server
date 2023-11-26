@@ -1,0 +1,106 @@
+.app {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+.todo {
+    height: 30px;
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.controlPanel {
+    height: 30px;
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.inputField {
+    width: 90%;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: 5px 10px;
+}
+
+.checkboxSort {
+    display: none;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -2;
+    right: -2;
+    bottom: -2;
+    left: -2;
+    border-radius: 3px;
+}
+
+.checkboxSort:checked+.label {
+    padding: 2px 0 0 2px;
+    box-shadow: inset 2px 2px 3px 0 #999;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.title {
+    width: 100%;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+}
+
+/* .loader {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid grey;
+    opacity: .7;
+    border-left: transparent;
+    border-radius: 50%;
+    animation: loader 1s infinite;
+}
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
